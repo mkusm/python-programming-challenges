@@ -1,0 +1,18 @@
+__author__ = "Michał Kuśmierczyk (kusm@protonmail.ch)"
+__date__ = "30.01.15"
+__license__ = "Python"
+
+
+def fizz_buzz():
+    for i in range(1, 101):
+        if i % 3 == 0 and i % 5 == 0:
+            print("FizzBuzz")
+        elif i % 5 == 0:
+            print("Buzz")
+        elif i % 3 == 0:
+            print("Fizz")
+        else:
+            print(i)
+
+if __name__ == "__main__":
+    fizz_buzz()
